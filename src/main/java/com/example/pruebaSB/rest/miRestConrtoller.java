@@ -8,8 +8,8 @@ public class miRestConrtoller {
     @GetMapping("/")
 
     public String saludo(){
-        String feature= "cambios desde feature a development";
-        return "HOla mundo para cambios";
+        String feature ="fearture a development";
+        return "HOla mundo para la rama development";
     }
 
 }
