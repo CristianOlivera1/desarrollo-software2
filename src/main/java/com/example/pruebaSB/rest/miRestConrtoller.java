@@ -8,8 +8,10 @@ public class miRestConrtoller {
     @GetMapping("/")
 
     public String saludo(){
-        String feature ="fearture a development";
-        return "HOla mundo para la rama development";
+        return "HOla mundooooo";
     }
+    public void Raton(){
+        System.out.println("Rama de marco a Developmen");
 
+    }
 }
